@@ -1,0 +1,36 @@
+.cardWithLearnMore {
+  width: 378px;
+  height: 260px;
+  text-align: left;
+}
+
+.cardWithLearnMore h2 {
+  color: #3D2E87;
+  font-weight: 500;
+  font-size: 36px;
+  padding-right: 136px;
+  padding-bottom: 25px;
+}
+
+.cardWithLearnMore p {
+  color: #9B96BC;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .cardWithLearnMore {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+  }
+
+  .cardWithLearnMore h2 {
+    padding: 0;
+  }
+}

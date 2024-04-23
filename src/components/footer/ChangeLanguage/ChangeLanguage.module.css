@@ -1,0 +1,17 @@
+.changeLanguage {
+  padding: 50px 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.changeLanguage p {
+  padding: 0 5px 0 10px;
+}
+
+.changeLanguage button {
+  padding: 0;
+  background: transparent;
+  align-items: center;
+  outline: none;
+  border: 0;
+}

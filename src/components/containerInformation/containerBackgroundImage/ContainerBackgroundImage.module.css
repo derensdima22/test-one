@@ -1,0 +1,14 @@
+.containerBackgroundImage {
+  position: absolute;
+  width: 100%;
+}
+
+.containerBackgroundImage img {
+  width: 100%;
+}
+
+.imageTwo {
+  top: 83.2%;
+  left: 0;
+  position: absolute;
+}

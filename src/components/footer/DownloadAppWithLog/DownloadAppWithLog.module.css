@@ -1,0 +1,22 @@
+.downloadAppWithLog {
+  width: 100%;
+  min-width: 284px;
+  padding-left: 50px;
+}
+
+.buttonGroup {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.buttonGroup button{
+  padding: 0;
+}
+
+.downloadAppWithLog p {
+  color: #647D98;
+  font-size: 16px;
+  padding-top: 20px;
+}

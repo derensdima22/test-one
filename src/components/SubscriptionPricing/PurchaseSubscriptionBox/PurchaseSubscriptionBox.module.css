@@ -1,0 +1,68 @@
+.purchaseSubscriptionBox {
+  width: 100%;
+  height: 100%;
+  max-width: 397px;
+  min-height: 460px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  z-index: 3;
+  position: relative;
+  -webkit-box-shadow: 20px 28px 66px -11px rgba(184,178,184,1);
+-moz-box-shadow: 20px 28px 66px -11px rgba(184,178,184,1);
+box-shadow: 20px 28px 66px -11px rgba(184,178,184,1);
+}
+
+.purchaseSubscriptionBox:hover {
+  min-height: 523px;
+}
+
+.purchaseSubscriptionBoxHeader {
+  font-weight: 400;
+  font-size: 24px;
+  color: #4C408D;
+}
+
+.purchaseSubscriptionBox h3 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #322485;
+}
+
+.purchaseSubscriptionBox span {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7F16CE;
+}
+
+.purchaseSubscriptionBoxDescription {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #9B96BC;
+}
+
+.purchaseSubscriptionButton{
+  font-size: 20px;
+  background: #ffffff;
+  color: #544993;
+  border: 1px solid #AA8CD1;
+  border-radius: 24px;
+  padding: 7px 57px;
+}
+
+.purchaseSubscriptionButton:hover {
+  background: #61559E;
+  color: #ffffff;
+  border: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .purchaseSubscriptionBox {
+    width: 100%;
+    max-width: 100%;
+  }
+}

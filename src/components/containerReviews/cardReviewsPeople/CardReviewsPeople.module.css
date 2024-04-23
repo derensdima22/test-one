@@ -1,0 +1,89 @@
+.cardReviewsPeople {
+  width: 100%;
+  height: 100%;
+  max-width: 445px;
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  padding-bottom: 80px;
+}
+
+.activeCard {
+  max-width: 489px;
+  min-height: 398px;
+}
+
+.cardReviewsPeople img {
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid;
+  border-color: #fff;
+  top: 5px;
+  left: 40px;
+}
+
+.cardInfo {
+  background-color: white;
+  padding: 50px 40px 50px 20px;
+  border-radius: 23px;
+  height: 230px;
+  -webkit-box-shadow: 20px 28px 66px -11px rgba(184,178,184,1);
+  -moz-box-shadow: 20px 28px 66px -11px rgba(184,178,184,1);
+  box-shadow: 20px 28px 66px -11px rgba(184,178,184,1);
+}
+
+.activeCard .cardInfo{
+  max-width: 489px;
+  min-height: 288px;
+  opacity: 1;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardInfo h5 {
+  font-size: 18px;
+  color: #6E1EBA;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.cardInfo span {
+  font-size: 18px;
+  color: #5E5299;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.starGroup {
+  display: flex;
+  gap: 5px;
+  opacity: 0.5;
+}
+
+.cardInfo p {
+  color: #7871A7;
+  font-size: 16px;
+  padding: 10px 5px;
+  opacity: 0.5;
+}
+
+.activeCardInfo h5 {
+  opacity: 1;
+}
+
+.activeCardInfo span {
+  opacity: 1;
+}
+
+.activeCardInfo p {
+  opacity: 1;
+}
+
+.activeCardInfo .starGroup {
+  opacity: 1;
+}

@@ -1,0 +1,30 @@
+.outcomeStatsCitigroup {
+  width: 711px;
+  height: 535px;
+  position: relative;
+  display: flex;
+}
+
+.circle {
+  position: absolute;
+  height: 100%;
+  width: 83.12%;
+  right: 0;
+  top: 0;
+}
+
+.statsCitigroup {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .outcomeStatsCitigroup {
+    width: 661px;
+    height: 485px;
+  }
+}

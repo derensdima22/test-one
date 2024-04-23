@@ -1,0 +1,44 @@
+.startUsingAbstract {
+  padding: 0 57px 150px;
+  position: relative;
+  z-index: 2;
+}
+
+.startUsingAbstractContainer {
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  background: rgb(61,46,135);
+  background: linear-gradient(45deg, rgba(61,46,135,1) 0%, rgba(135,45,218,1) 100%);
+  border-radius: 17px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.startUsingAbstractContainer h2 {
+  color: #F3F3F3;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.startUsingAbstractContainer p {
+  width: 406px;
+  text-align: center;
+  color: #D1CAE5;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.startUsingAbstractButton {
+  background: #E6DDF2;
+  -webkit-box-shadow: 11px 35px 39px -3px rgba(41,41,41,1);
+  -moz-box-shadow: 11px 35px 39px -3px rgba(41,41,41,1);
+  box-shadow: 11px 35px 39px -3px rgba(41,41,41,1);
+}
+
+.startUsingAbstractButton span {
+  color: #9259D5;
+}

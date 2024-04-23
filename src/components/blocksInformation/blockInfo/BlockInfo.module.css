@@ -1,0 +1,53 @@
+.blockInfo {
+  z-index: 2;
+  position: relative;
+  background-color: #ffffff;
+  width: 360px;
+  height: 257px;
+  padding: 30px 20px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-shadow: 22px 0px 95px -7px rgba(189,172,189,1);
+  -moz-box-shadow: 22px 0px 95px -7px rgba(189,172,189,1);
+  box-shadow: 22px 0px 95px -7px rgba(189,172,189,1);
+}
+
+.activeBlock {
+  height: 330px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000079;
+  padding: 15px 0;
+}
+
+.activeTitle {
+  color: #771CCB;
+}
+
+.blockInfo p {
+  text-align: justify;
+  font-size: 18px;
+  color: #9B96BC;
+  line-height: 1.5;
+}
+
+.blockInfo a {
+  display: flex;
+  align-items: center;
+}
+
+.blockInfo a span {
+  color: #000079;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .blockInfo {
+    width: 100%;
+  }
+}

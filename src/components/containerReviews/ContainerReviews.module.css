@@ -1,0 +1,78 @@
+.containerReviews {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 160px;
+}
+
+.containerReviews h1 {
+  color: #6A28B8;
+  font-size: 38px;
+  font-weight: 600;
+  width: 100%;
+  max-width: 350px;
+}
+
+.groupButton {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.containerReviews button {
+  padding: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 0;
+}
+
+.containerReviews img {
+  width: 26px;
+}
+
+.arrowOne{
+  transform: rotate(180deg);
+}
+
+.reviewsPeople {
+  padding: 56px 0 100px;
+  position: relative;
+}
+
+.reviewsPeopleBg{
+  height: 100%;
+  margin:  0 56px;
+  min-height: 278px;
+  border-radius: 17px;
+  background: rgb(80,46,156);
+  background: linear-gradient(180deg, rgba(80,46,156,1) 0%, rgba(128,42,209,1) 100%);
+}
+
+.mySwiper {
+  width: 100%;
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .containerReviews {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .containerReviews {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .containerReviews h1 {
+    max-width: 100%;
+    text-align: center;
+  }
+}

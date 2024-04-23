@@ -1,0 +1,13 @@
+.citigroup {
+  width: 291px;
+  height: 256px;
+  background: linear-gradient(90deg, rgba(249,248,250,1) 0%, rgba(220,199,241,1) 100%);
+  border-radius: 23px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .citigroup {
+    width: 241px;
+    height: 206px;
+  }
+}

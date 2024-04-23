@@ -1,0 +1,40 @@
+.headerImage {
+  position: absolute;
+  min-width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.imgVectorFive {
+  max-width: 100%;
+  width: 100%;
+}
+
+.imgVectorSeven {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.imgVectorEight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  width: 46.68%;
+  max-height: 100%;
+}
+
+.imgVectorNine {
+  position: absolute;
+  top: 0;
+  left: 17%;
+  max-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  width: 35.2%;
+  max-height: 100%;
+}
